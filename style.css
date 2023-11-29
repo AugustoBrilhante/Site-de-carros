@@ -200,3 +200,159 @@ background-repeat: no-repeat;
 }
 
 /* lista de carros */
+
+
+.catalogo{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12, 12, 12, 0.8);
+}
+
+h2{
+
+    font-size: 5rem;
+    color: #e6e6e6;
+    text-transform: capitalize;
+}
+
+.itens-catalogo{
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.itens-catalogo .info{
+background-color: rgb(221, 221, 221);
+border: none;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 1.5rem;
+
+}
+
+.itens-catalogo .info h3{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.itens-catalogo .info h4{
+
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 150px 150px;
+    margin-left: 6rem;
+}
+.itens-catalogo .info h4 span{
+    font-size: 1.6rem;
+    color: #585858;
+    margin-left: 1.5rem;
+    text-decoration: underline;
+}
+
+.itens-catalogo img{
+
+    width: 100%;
+    
+}
+
+.itens-catalogo div{
+
+    background-color: #5e5252;
+    box-shadow: 0px 0px 4px 1px;
+}
+
+.itens-catalogo .info .informações{
+
+    width: 200px;
+    height: 35px;
+    margin-top: 0.5rem;
+    background-color: rgb(8, 151, 164, 0.795);
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+    transition: all 200ms ease-in;
+}
+
+.itens-catalogo .info .informações:hover{
+
+    background-color: black;
+    color: white;
+}
+
+
+.mapa{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    
+    
+    
+    
+}
+iframe{
+    width: 500px;
+    height: 400px;
+    border: 3px solid rgb(167, 13, 13);
+    margin-bottom: 3rem;
+}
+
+.mapa h1{
+    font-size: 5rem;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* contatos */
+
+.contatos{
+    width: 100%;
+    background-color: #1f1e1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+    padding-bottom: 4rem;
+}
+
+.contatos h3{
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    
+}
+
+.contatos-outros{
+    
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
