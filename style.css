@@ -77,6 +77,15 @@ align-items: center;
     color: rgba(8, 151, 164, 0.795);
 }
 
+#seta{
+    color:white;
+    padding: 15px;
+    background-color: rgba(8, 151, 164, 0.795);
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 20px;
+}
 
 /* primeira sessão */
 .first-section{
@@ -583,4 +592,6 @@ transform: rotate(-45deg) translate(20px, -6px);
         width: 100%;
         font-size: 1.5rem;
     }
+
+    
 }
