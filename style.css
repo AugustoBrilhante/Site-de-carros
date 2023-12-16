@@ -307,6 +307,7 @@ padding: 1.5rem;
 }
 
 
+
 .mapa{
     width: 100%;
     display: grid;
@@ -316,12 +317,14 @@ padding: 1.5rem;
     background-color: black;
     
     
-    
-    
 }
+
+
+
 iframe{
-    width: 500px;
-    height: 400px;
+    
+    width: 100%;
+    height: auto;
     border: 3px solid rgb(167, 13, 13);
     margin-bottom: 3rem;
 }
@@ -593,5 +596,13 @@ transform: rotate(-45deg) translate(20px, -6px);
         font-size: 1.5rem;
     }
 
+    .section .endereço  h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+    }
+
+    
     
 }
