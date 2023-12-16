@@ -17,6 +17,7 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
     background-color: #1f1e1f;
+    scroll-behavior: smooth;
 }
 
 .content{
